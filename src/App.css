@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Teko:wght@400;500&family=Work+Sans:ital,wght@0,300;1,300&display=swap');
+
+header {
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}
+
+header button {
+    background-color: rgb(36, 230, 36);
+    padding: 10px;
+    border-radius: 10px;
+    height: 40px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+header button:hover{
+    background-color: rgb(11, 170, 11);
+    transition: 0.3s;
+}
+
+.container{
+    padding-top: 60px;
+    width: 100%;
+    
+}
+
+.title {
+    background-color: #660066;
+    padding: 5px;
+    padding-left: 10px;
+    text-align: center;
+    padding-top: -5px;
+    font-family: sans-serif;
+}
+
+.title h2{
+    color: #ffffff;
+}
+
+.options {
+    margin-top: 5px;
+    width: 130px;
+  }
+  
+  .btn {
+    width: 100px;
+    display: block;
+    padding: 10px;
+    margin-bottom: 8px;
+    border: none;
+    background-color: #000000;
+    cursor: pointer;
+    color: #ffffff;
+    margin-left: 3px;
+    border-radius: 10px;
+    font-size: 12px;
+  }
+  
+  .options .botao-selecionado {
+    margin-bottom: 8px;
+    width: 100px;
+    display: block;
+    padding: 10px;
+    margin-left: 8px;
+    border: none;
+    background-color: #680386;
+    color: #ffffff;
+    transition: 0.10s;
+    border-radius: 10px;
+    font-size: 12px;
+  }
+  
+  .menu{
+    display: flex;
+  }
+
+  .divs-container{
+    margin-left: -1%;
+    width: 100%;
+    display: flex;
+  }
+
+  .divs-container h3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    flex-wrap: wrap;
+}
+
+ul, li, img{
+    border-radius: 10px 10px 0px 0px;
+    width: 90px;
+
+}
+
+.info-product{
+    padding: 10px;
+    width: 70px;
+    background-color: #000000f8;
+    border-radius: 0px 0px 10px 10px;
+    border-top: 3px solid rgb(153, 0, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-product h4{
+    color: #ffffff;
+    margin-bottom: 5px;
+    font-size: 12px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.info-product p{
+    color: #ffffff;
+    font-size: 8px;
+    text-align: center;
+}
+
+ul{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.test{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.valor-hamburguer{
+    font-size: 10px !important;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.color-purple{
+    color: rgb(153, 0, 255) !important;
+}
+
+.adicionais{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -45%;
+    margin-bottom: 50px;
+}
+
+.adicionais p{
+    color: #ffffff;
+}
