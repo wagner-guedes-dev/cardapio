@@ -101,7 +101,8 @@ function App() {
 
         <div className="divs-container">
           {categorias.map((categoria, index) => (
-            <div key={index} style={{ display: index === categoriaSelecionada ? 'block' : 'none' }}>
+            
+            <div key={index}  style={{ display: index === categoriaSelecionada ? 'block' : 'none' }}>
               <h3>{categoria}</h3>
              
               <div>
